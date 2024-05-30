@@ -1,0 +1,5 @@
+
+# Ignorar un directorio específico
+node_modules/
+package-lonk.json
+package.json
