@@ -36,19 +36,19 @@
         name: "Savia Servicios",
         category: "dev",
         URL: "https://saviaservicios.com/",
-        img: "../img/savia.png"
+        img: "./img/savia.png"
       },
       {
           name: "Savia Corp",
           category: "dev",
           URL: "https://app.saviaservicios.com/",
-          img: "../img/Corp.png"
+          img: "./img/Corp.png"
       },
       {
           name: "Riwi",
           category: "dev",
           URL: "https://riwi.io/",
-          img: "../img/riwi.png"
+          img: "./img/riwi.png"
         }
       
     ];
