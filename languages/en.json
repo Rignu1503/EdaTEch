@@ -1,0 +1,55 @@
+{
+    "header": {
+        "services": "Services",
+        "portfolio": "Portfolio",
+        "contact_us": "Contact us",
+        "language": "Language:"
+    },
+    "firstSec": {
+        "hello": "HELLO, WE ARE",
+        "we_are": "Designers & Web developers"
+    },
+    "ourServices": {
+        "tittleWhatWeDo": "WHAT WE DO",
+        "tittleOur_services": "Our Services",
+        "CardDevelopmentTittle": "Development",
+        "CardDevelopmentText": "Unlock powerful development solutions with EdaTech. From sleek apps to robust web platforms, we transform concepts into digital reality.",
+        "CardGraficsTittle": "Graphics design",
+        "CardGraficsText": "Unlock captivating graphic design at EdaTech. From logos to marketing visuals, we turn ideas into impact in pixels, EdaTech your best option to upgrade your services.",
+        "CardUI-DesignTittle": "UI/UX design",
+        "CardUI-DesignText": "Unlock seamless user experiences with EdaTech. From intuitive interfaces to engaging interactions, we craft digital journeys that captivate and delight."
+    },
+    "ourProjects":{
+        "collectionProject": "COLLECTION OF OUR PROJECT",
+        "showCase": "Work Showcase",
+        "showAll": "Show all",
+        "designB": "Branding",
+        "dev": "Development",
+        "uiUx": "UI/UX Design"
+    },
+    "form":{
+        "questionForm" : "HAVE QUESTION CONTACT US?",
+        "MessageTouch" : "Love to Hear From You,",
+        "MessageTouch2" : "Get in Touch!",
+        "firstCardForm" : "Email address",
+        "secondCardForm" : "Phone",
+        "thirdCardForm" : "Location",
+        "inputName" : "User Name *",
+        "inputEmail" : "Your Email *",
+        "inputPhone" : "Phone no *",
+        "selectValue1" : "Select Topic *",
+        "selectValue2" : "Graphichs desing",
+        "selectValue3" : "Project management",
+        "selectValue4" : "Web desing",
+        "selectValue5" : "Software development",
+        "selectValue6" : "Review",
+        "selectValue7" : "Others",
+        "inputMessage" : "Your Message *",
+        "btnSumit" : "Submit"
+    },
+    "content_footer":{
+        "DescriptionEda": "We are a development company committed to innovation and excellence. We create technological solutions that turn ideas into reality",
+        "rightReserved" : "2024 EDATECH | All rights reserved."
+
+    }
+}

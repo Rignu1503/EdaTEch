@@ -1,0 +1,56 @@
+{
+    "header": {
+        "services": "Servicios",
+        "portfolio": "Portafolio",
+        "contact_us": "Contactanos",
+        "language": "Lenguaje:"
+    },
+    "firstSec": {
+        "hello": "HOLA, NOSOTROS SOMOS",
+        "we_are": "Diseñadores y desarrolladores web"
+    },
+    "ourServices": {
+        "tittleWhatWeDo": "QUE HACEMOS",
+        "tittleOur_services": "Nuestros Servicios",
+        "CardDevelopmentTittle": "Desarrollo",
+        "CardDevelopmentText": "Descubre potentes soluciones de desarrollo con EdaTech. Desde aplicaciones elegantes hasta plataformas web robustas, transformamos conceptos en realidad digital.",
+        "CardGraficsTittle": "Diseño grafico",
+        "CardGraficsText": "Descubre un diseño gráfico cautivador en EdaTech. Desde logotipos hasta visuales de marketing, convertimos ideas en impacto en píxeles. EdaTech es tu mejor opción para mejorar tus servicios.",
+        "CardUI-DesignTittle": "Diseño UI/UX",
+        "CardUI-DesignText": "Desbloquea experiencias de usuario fluidas con EdaTech. Desde interfaces intuitivas hasta interacciones atractivas, creamos trayectos digitales que cautivan y deleitan."
+
+    },
+    "ourProjects":{
+        "collectionProject": "COLECCIÓN DE PROYECTOS",
+        "showCase": "Nuestro Portafolio",
+        "showAll": "Ver todos",
+        "designB": "Diseño de marca",
+        "dev": "Desarrollo web",
+        "uiUx": "Diseño UI/UX"
+    },
+    "form":{
+        "questionForm" : "¿TIENES ALGUNA PREGUNTA? ¡CONTÁCTANOS!",
+        "MessageTouch" : "Nos encantaría saber de ti,",
+        "MessageTouch2" : "¡Ponte en contacto!",
+        "firstCardForm" : "Correo electrónico",
+        "secondCardForm" : "Teléfono",
+        "thirdCardForm" : "Ubicación",
+        "inputName" : "Nombre *",
+        "inputEmail" : "Correo electrónico *",
+        "inputPhone" : "Teléfono *",
+        "selectValue1" : "Seleccionar asunto *",
+        "selectValue2" : "Diseño gráfico",
+        "selectValue3" : "Gestión de proyectos",
+        "selectValue4" : "Diseño web",
+        "selectValue5" : "Desarrollo de software",
+        "selectValue6" : "Reseña",
+        "selectValue7" : "Otros",
+        "inputMessage" : "Ingrese su mensaje",
+        "btnSubmit" : "Enviar"
+    },
+    "content_footer":{
+        "DescriptionEda": "Somos una empresa desarrolladora comprometida con la innovación y excelencia. Creamos soluciones tecnológicas que convierten las ideas en realidad",
+        "rightReserved" : "2024 EDATECH  | Todos los derechos reservados."
+
+    }
+}

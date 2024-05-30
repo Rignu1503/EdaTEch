@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root{
+    --primary-color: #050A1C;
+    --white: #fff;
+    --gray: #BABABC;
+    --red: #FF3131;
+    --grayCards: #111425;
+    --grayCardsLite: #1c2038;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", serif;
+    text-decoration: none;
+}
+
+body{
+    background-color: #050A1C;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.ir-arriba{
+    z-index: 100000;
+}
+
+/*---SCROLLBAR START---*/
+/* width */
+::-webkit-scrollbar {
+    width: 13px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--red);
+  }
+
+  /*--------AJUSTES PARA IR ARRIBA Y BARRA LATERAL---------*/
+
+.ir-arriba{
+    display:none;
+    padding: 20px;
+    border-radius: 20px;
+    background: var(--red);
+    color: #fff;
+    cursor: pointer;
+    position: fixed;
+    bottom: 40px;
+    right: 60px;
+    transition: 0.6s;
+}
+
+.bars__menu {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    display: none;
+    flex-direction: column;
+    align-items: flex-end; /* Alinea las líneas hacia la derecha */
+}
+
+.sidevar{
+    display: none!important;
+    transition: 0.5s;
+}
+
+.nav-icon.sidebar a img{
+    display: none;
+  }
+
+.bars__menu span {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: var(--red);
+    margin-bottom: 6px; /* Cambiado a margin-bottom para separar las líneas */
+    transition: all 500ms;
+    transform-origin: 99% 0px; /* Ajusta el punto de rotación */
+}
+.line2__bars-menu{
+    width: 80% !important; 
+}
+.line3__bars-menu{
+    width: 60% !important; 
+}
+
+.activeline1__bars-menu{
+    transform: rotate(-45deg) translate(2px, 0px); 
+}
+
+.activeline2__bars-menu{
+    opacity: 0;
+    margin-left: -30px; 
+    transform: translate(30px);
+}
+
+.activeline3__bars-menu{
+    width: 100% !important;
+    transform: rotate(45deg) translate(4px, 1px);
+}
+
+.first-sec{
+    display: flex;
+   
+    min-height: 100vh;
+    background-image: url(../img/develop-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+
+    .nav-icon{
+        width: 9%;
+        height: 9%;
+    }
+        .nav-icon img{
+            width: 100%;
+            max-width: 200px;
+            
+        }
+
+    .first-sec .header-container{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        
+    }
+
+    .first-sec .header-container nav{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .first-sec .header-container nav .nav-options div a{
+        margin: 0px 16px 0px 16px;
+        color: var(--white);
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.3s;
+
+    }
+    .first-sec .header-container nav .nav-options div a:hover{
+        margin: 0px 16px 0px 16px;
+        border-bottom: 3px solid var(--red);
+        
+
+    }
+
+        .first-sec .header-container .nav-options{
+            display: flex;
+            margin: 0px 30px 0px 10px;
+        }
+
+        .nav-downloadCV{
+            display: flex;
+            align-items: center;
+            margin: 0px 10px 0px 30px;
+            padding: 10px;
+            border-radius: 8px;
+        }
+
+        /*  
+        # 
+        #   ESTILOS BANDERAS DE LENGUAJES
+        #           |
+        #           v
+        */
+
+        .p-language{
+            color: var(--white);
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        .flags{
+            width: 75px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        .flags__item{
+            width: 30px;
+            margin: 0px 5px 0px 5px;
+            cursor: pointer;
+        }
+        .flags__img{
+            display: block;
+        }
+
+        /*  
+        #           ^
+        #           |
+        #   ESTILOS BANDERAS DE LENGUAJES
+        #           
+        #           
+        */
+
+            .nav-downloadCV button{
+                padding: 15px 50px 15px 50px;
+                border-radius: 20px;
+                border: 2px solid var(--white);
+                background: none;
+                transition: 0.5s;
+            }
+
+            .nav-downloadCV button a{
+                text-decoration: none;
+                color: var(--white);
+                font-weight: bold;
+                font-size: 16px;
+
+            }
+            .nav-downloadCV button i{
+                text-decoration: none;
+                color: var(--white);
+                font-weight: bold;
+                font-size: 16px;
+                margin: 0px 5px 0px 0px;
+
+
+            }
+
+            .nav-downloadCV button:hover{
+                border: 3px solid var(--red);
+                background-color: var(--red);
+            }
